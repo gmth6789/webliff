@@ -1,8 +1,8 @@
 <template>
-  <v-app>
+  <van-app>
     <nuxt></nuxt>
     <Dialog/>
-  </v-app>
+  </van-app>
 </template>
 
 <script>
@@ -16,15 +16,15 @@ export default {
 </script>
 
 <style lang="scss">
-  .v-application{
+  .van-application{
     font-family: 'Quicksand', sans-serif;
   }
-  .v-toolbar__title{
+  .van-toolbar__title{
     text-align: center;
     width: 100%;
     font-weight: bold;
   }
-  .v-application .primary{
+  .van-application .primary{
     background-color: #1A56BE !important;
     border-color: #1A56BE !important;
   }

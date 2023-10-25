@@ -17,5 +17,10 @@
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
-  }
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0"
+}
 }
