@@ -1,24 +1,24 @@
 <template>
-  <van-card class="mx-auto" :class="active == true ? 'active': ''" max-width="400">
-    <van-img
+  <v-card class="mx-auto" :class="active == true ? 'active': ''" max-width="400">
+    <v-img
       class="white--text align-end"
       height="200px"
       src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
     >
       <div class="more-detail" @click="$emit('moreDetail')">More Detail</div>
-    </van-img>
+    </v-img>
     <div class="card-content">
       <div>
-        <van-card-text class="text--primary">
+        <v-card-text class="text--primary">
           <h1>{{ session.title }}</h1>
-        </van-card-text>
-        <van-card-subtitle class="pt-0">{{ session.spaker }}</v-card-subtitle>
+        </v-card-text>
+        <v-card-subtitle class="pt-0">{{ session.spaker }}</v-card-subtitle>
       </div>
-      <van-btn class="circle" @click="$emit('chooseWorkshop')">
+      <v-btn class="circle" @click="$emit('chooseWorkshop')">
         <v-icon>check</v-icon>
-      </van-btn>
+      </v-btn>
     </div>
-  </van-card>
+  </v-card>
 </template>
 
 <script>
@@ -54,24 +54,24 @@ export default {
   bottom: 11px;
   right: 11px;
 }
-.van-card__subtitle {
+.v-card__subtitle {
   padding: 0;
 }
-.van-card__text {
+.v-card__text {
   padding: 0;
   padding-bottom: 5px;
   h1 {
     font-size: 24px;
   }
 }
-.van-card + .v-card {
+.v-card + .v-card {
   margin-top: 30px;
 }
-.van-card.active {
+.v-card.active {
   .circle {
     background: rgba($color: #1a56be, $alpha: 1) !important;
   }
-  .van-image {
+  .v-image {
     &::before {
       content: "Selected";
       font-weight: bold;
