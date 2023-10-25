@@ -17,7 +17,7 @@ export default {
       { rel: 'stylesheet', href:'https://fonts.googleapis.com/icon?family=Material+Icons'}
     ],
     script: [
-      { src: 'https://static.line-scdn.net/liff/edge/2.1/sdk.js' }
+      { src: 'https://static.line-scdn.net/liff/edge/versions/2.22.3/sdk.js' }
     ]
   },
   /*
