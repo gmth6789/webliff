@@ -1,0 +1,207 @@
+repo_name: gmth6789/webliff
+report_id: bb911d7ada8d78cc4225e905eebfd7ce
+repo_type: Public
+timestamp: '2023-11-09T15:34:24+00:00'
+requested_by: gmth6789
+provider: github
+branch: main
+detected_tools_count: 15
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Less
+  description: The dynamic stylesheet language
+  website_url: http://lesscss.org/
+  version: 3.13.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 12:55:41.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.7.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 12:55:41.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 12:55:41.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 12:55:41.000000000 Z
+- name: babel-plugin-import
+  description: Component modular import plugin for babel
+  package_url: https://www.npmjs.com/babel-plugin-import
+  version: 1.13.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16208/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 13:20:01.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.33.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 12:55:41.000000000 Z
+- name: less-loader
+  description: A Less loader for webpack. Compiles Less to CSS
+  package_url: https://www.npmjs.com/less-loader
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15989/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 13:25:07.000000000 Z
+- name: nuxt
+  description: A minimalistic framework for server-rendered Vue.js applications
+  package_url: https://www.npmjs.com/nuxt
+  version: 2.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17986/default_3c26cdeaec6eea61500856203ee8d97e81b93f76.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 12:55:41.000000000 Z
+- name: sass
+  description: A pure JavaScript implementation of Sass
+  package_url: https://www.npmjs.com/sass
+  version: 1.69.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 13:25:07.000000000 Z
+- name: vant
+  description: Mobile UI Components built on Vue
+  package_url: https://www.npmjs.com/vant
+  version: 2.13.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18682/default_cf78ff1bf733daa840e71b062846339008d73173.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 12:55:41.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.7.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 12:55:41.000000000 Z
+- name: vue-server-renderer
+  description: Server renderer for Vue 2.0
+  package_url: https://www.npmjs.com/vue-server-renderer
+  version: 2.7.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17043/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 13:20:01.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.7.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: gmth6789
+  last_updated_on: 2023-10-25 12:55:41.000000000 Z
